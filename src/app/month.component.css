@@ -1,0 +1,40 @@
+table {
+    height:auto; 
+    border-collapse: collapse
+    }
+
+td{
+    border: 1px solid grey;
+    width:150px;
+    height: 120px;
+    color: #383847;
+    
+}
+
+div.cell{
+    width:152px;
+    height: 122px;
+    padding-left:10px;
+    padding-top: 5px;
+}
+
+div.cell:hover {
+    background-color: #c1e4ff;
+}
+
+div.cell:active {
+    background-color: #adcde5;
+}
+
+td.thisOutput{
+    color: red;
+}
+
+td.thisMonth{
+    color: #999999;
+}
+
+td.today{
+    background-color: #f4f4f4;
+    font-weight: bold;
+}

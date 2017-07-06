@@ -1,0 +1,12 @@
+<table *ngIf="month">
+    <tbody>
+        <tr *ngFor="let week of month.weeks; let showDayOfWeek = first">
+            <td *ngFor="let day of week.days" [class.today]="isToday(day)" [class.thisMonth]="isMonth(day)" [class.thisOutput]="isOutput(day)">
+                <div class=cell >
+                    <span *ngIf="showDayOfWeek">{{getDayOfWeek(day)}}</span>
+                    <span>{{getDate(day)}}</span>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

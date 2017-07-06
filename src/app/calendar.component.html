@@ -1,0 +1,9 @@
+<div>
+    <div class=navigate >
+        <button (click)="goToPreviousMonth()"> &#60; </button>
+        <span> {{getMonthName(day)}} {{getYear(day)}} </span>
+        <button (click)="goToNextMonth()"> &#62; </button>
+        <button (click)="goToThisMonth()"> Today </button>
+    </div>
+    <router-outlet></router-outlet>
+</div>

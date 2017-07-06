@@ -1,0 +1,27 @@
+node_modules/
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# ignore js and map files
+src/app/**/*.js
+**/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
